@@ -59,7 +59,7 @@
 	</wsdl:binding>
 	<wsdl:service name="InventoryServiceV2">
 		<wsdl:port name="InventoryServiceBinding" binding="tns:InventoryServiceBindingV2">
-			<soap:address location="[Endpoint URL]"/>
+			<soap:address location="https://www.nvspromo.com/soap/inventory/index.php"/>
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
